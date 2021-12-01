@@ -1,4 +1,4 @@
-# TCP-IP-Socket-Client-Server
+# TCP/IP Socket Client/Server
 Implementation of a TCP client/server application, where the server is a remote computer that responds to client request in the following way: 
 1. Once the connection is established, the client reads the operation to be performed (using the characters `+`,`x`, `-`,`/`, respectively for *Addition, Multiplication, Subtraction* and *Division*) and two integers from the standard input (e.g. `+ 23 45`) and sends what it has read from the keyboard to the server. 
 2. The server reads what has been sent by the client, performs the requested operation and sends the result to the client (e.g. `68`). 
